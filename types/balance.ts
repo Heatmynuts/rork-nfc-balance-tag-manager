@@ -1,11 +1,10 @@
 export interface Balance {
   id: string;
-  brand: string;
-  model: string;
-  serialNumber: string;
-  lastControlDate: string;
+  name: string;
+  currentAmount: number;
+  currency: string;
+  lastUpdated: string;
   nextControlDate: string;
-  comment: string;
   nfcTagId?: string;
 }
 
